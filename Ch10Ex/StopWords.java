@@ -29,7 +29,7 @@ public class StopWords {
 		Scanner input = new Scanner(new File("speech.txt"));
 		while (input.hasNext()) {
 			String next = input.next();
-			if (!stopWords.contains(next.toLowerCase()) {
+			if (!stopWords.contains(next.toLowerCase())) {
 					System.out.print(next + " ");
 			}
 		}
