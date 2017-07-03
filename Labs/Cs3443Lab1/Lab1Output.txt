@@ -1,0 +1,3 @@
+6 tokens are numbers.
+7 tokens ARE NOT numbers.
+All numbers in the file sume to: 12.60
