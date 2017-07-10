@@ -9,7 +9,7 @@ Started as repository for Java programs from Introduction to Computer Programmin
 **OTHER REPO'S WILL MOST LIKELY BE CONSOLIDATED INTO ONE REPO**
 
 **Directories**
---CS1063IntroToProgrammingUTSA--
+--CS1063IntroToProgrammingUTSA
 Example programs from Intro to Programming course at UTSA.
 
 --Ch10Ex--
