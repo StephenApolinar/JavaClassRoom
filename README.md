@@ -10,25 +10,25 @@ Started as repository for Java programs from Introduction to Computer Programmin
 
 ## Directories
 
-###CS1063IntroToProgrammingUTSA
+### CS1063IntroToProgrammingUTSA
 Example programs from Intro to Programming course at UTSA.
 
-###Ch10Ex
+### Ch10Ex
 Chapter 10 ArrayLists - Example programs from "Building Java Programs" 
 by Stuart Reges & Marty Stepp. 2nd Edition.
 
-###Ch14Ex
+### Ch14Ex
 Chapter 14 Graphical User Interfaces - Example programs from 
 "Building Java Programs" by Stuart Reges & Marty Stepp. 2nd Edition.
 
-###Ch9Ex
+### Ch9Ex
 Chapter 9 Inheritance and Interfaces - Example programs from 
 "Building Java Programs" by Stuart Reges & Marty Stepp. 2nd Edition.
 
-###Labs
+### Labs
 Small project exercises for learning computer science fundamentals 
 from CS1063 Intro to Programming course at UTSA.  And CS3443 Application 
 Programming.
 
-###Projects
+### Projects
 Final exam project from CS1063 Intro to Programming course at UTSA.
