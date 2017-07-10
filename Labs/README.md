@@ -37,3 +37,12 @@ Prints out three values: the number of tokens
 that are numbers (doubles), the number of tokens 
 that are not numbers, and the sum of the numbers.  
 The program outputs values to an output file.
+
+Cs3443Lab2 - Exercise for building a client 
+program, and Class/object file.  Client file reads 
+in a data file, constructs an array and creates 
+objects. The client program will run test printing 
+out processed data from Class/object file.  The 
+Class/object file constructs the array object, 
+contains toString, getlength, average, sortArray, 
+median, maximum, minimum methods. 
