@@ -73,13 +73,43 @@ public class Grades {
 		}
 	}
 
-	// Method for obtaining Maximum value of array.
+	// Method for obtaining Median value of sorted array.
+	public double median() {
+		// variables
+		// First index value for median calculation of even 
+		// array.
+		int medianEvenIndexValue;
+		// Second index value for median calculation of 
+		// even array
+		int medianEvenIndexMinus1;
+		// Index value for median of odd array.
+		int medianOddIndex;
+
+		// Sort array
+		grades.arraySort;
+
+		// Test array length for even or odd
+		// Odd
+		if (!grades.length % 2 = 0) {
+			return grades([grades.length / 2) - 0.5];
+		}
+		// Even
+		else if (grades.length % 2 = 0) {
+			medianEvenIndexValue = grades.length / 2;
+			medianEvenIndexValueMinus1 = 
+					(grades.length / 2) - 1;
+			return (grades[medianEvenIndexValue] + 
+					grades[medianEvenIndexValueMinus1]) / 2;
+		}
+	}
+
+	// Method for obtaining Maximum value of sorted array.
 	public int maximum() {
 		grades.arraySort();
 		return grades[grades.length - 1];
 	}
 
-	// Method for obtaining Minimum value of array.
+	// Method for obtaining Minimum value of sorted array.
 	public int minimum() {
 		grades.arraySort();
 		return grades[0];
