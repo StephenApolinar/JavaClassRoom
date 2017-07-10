@@ -1,7 +1,8 @@
-Lab exercises for practicing Computer Science 
-fundamentals.
+# Lab exercises for practicing Computer Science fundamentals.
 
-CS1063 Intro to Computer Programming at UTSA
+## Directories
+
+## CS1063 Intro to Computer Programming at UTSA
 
 Cs1063Lab0 - Exercise to learn the Java program 
 format-Class, Main method.  Practice using 
@@ -29,7 +30,7 @@ parameters and return values.  Use for loops
 and while loops.  Use arrays.
 
 
-CS 3443 Application Programming at UTSA
+## CS 3443 Application Programming at UTSA
 
 Cs3443Lab1 - Exercise for practicing file 
 processing.  Program read in tokens from a file. 
