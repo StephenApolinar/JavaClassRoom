@@ -1,0 +1,21 @@
+Lab 3 written by Stephen A. Apolinar on 09/29/2016
+
+Compound Interest Calculator for the future value on a present dollar amount
+
+Enter present value $1000
+
+Enter interest rate (%):5
+
+Enter number of years:5
+
+Future value using compound interest in $1276.2815625000003
+
+Future Value of your Annuity Calculator
+
+Enter yearly payment $1000
+
+Enter annuity interest rate (%):5
+
+Enter number of years of annuity payments:5
+
+Future value of your Annuity in $5525.631250000007
