@@ -5,10 +5,10 @@
  * Program constructs GUI
 */
 import java.awt.BorderLayout;
-import java.awt.JButton;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class SelectionSortComponent {
+public class SelectionSortViewer {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 
