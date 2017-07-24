@@ -46,7 +46,7 @@ public class SelectionSorter {
 			int minPos = minimumPosition(i);
 			sortStateLock.lock();
 			try {
-				ArrayUtil.swap(a, minPos, i);
+				swap(minPos, i);
 				// For animation
 				alreadySorted = i;
 			}
@@ -85,11 +85,11 @@ public class SelectionSorter {
 	 * @param i the first position to swap
 	 * @param j the second position to swap
 	*/
-	/*private void swap(int i, int j) {
+	private void swap(int i, int j) {
 		int temp = a[i];
 		a[i] = a[j];
 		a[j] = temp;
-	*/}
+	}
 
 	/**
 	 * Draws the current state of the sorting algorithm.
