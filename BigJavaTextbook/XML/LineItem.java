@@ -38,4 +38,20 @@ public class LineItem {
 					theProduct.getDescription(), theProduct.getPrice(), 
 					quantity, getTotalPrice());
 	}
+	
+	/**
+	 * Returns a product object
+	 * @return theProduct
+	*/
+	public Product getProduct() {
+		return theProduct;
+	}
+
+	/**
+	 * Returns the product quantity
+	 * @return quantity
+	*/
+	public int getQuantity() {
+		return quantity;
+	}		
 }
