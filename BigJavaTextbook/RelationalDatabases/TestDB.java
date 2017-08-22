@@ -3,6 +3,7 @@
  * Ch25.3 Installing a Database
 */
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -15,8 +16,8 @@ import java.sql.Statement;
 public class TestDB {
 	public static void main(String[] args) throws Exception {
 		if (args.length == 0) {
-			System.out.println("Usage: java -classpath driver_class_path;." 
-						+ " TestDB propertiesFile");
+			System.out.println("Usage: java -classpath driver_class_path" 
+						+ File.pathSeparator + ". TestDB database.properties");
 			return;
 		} else {
 			SimpleDataSource.init(args[0]);

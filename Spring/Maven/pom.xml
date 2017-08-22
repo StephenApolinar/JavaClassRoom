@@ -7,24 +7,6 @@
 	<packaging>jar</packaging>
 	<version>0.1.0</version>
 
-	<dependencies>
-		<!-- tag::joda[] -->
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.9.2</version>
-		</dependency>
-		<!-- end::joda[] -->
-		<!-- tag::junit[] -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- end::junit[] -->
-	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
